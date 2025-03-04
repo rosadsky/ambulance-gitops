@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: ros-ambulance-ufe-content
+spec:
+  microFrontend: ros-ambulance-ufe
+  element: ros-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?<pfx>-ambulance-wl(/.*)?$"
