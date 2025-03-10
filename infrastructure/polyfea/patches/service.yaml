@@ -5,9 +5,9 @@ metadata:
   namespace: polyfea
 spec:
   ports:
-  - name: webserver
-    protocol: TCP
-    port: 80
-    targetPort: http
-    nodePort: 30331
+    - name: webserver
+      protocol: TCP
+      port: 80
+      targetPort: http
+      nodePort: 30331
   type: NodePort
