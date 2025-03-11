@@ -4,7 +4,10 @@ metadata:
   name: ros-ambulance-ufe-content
 spec:
   microFrontend: ros-ambulance-ufe
-  element: ros-ambulance-wl-list
+  element: ros-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /ros-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
