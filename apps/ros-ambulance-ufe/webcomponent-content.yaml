@@ -6,8 +6,10 @@ spec:
   microFrontend: ros-ambulance-ufe
   element: ros-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: /ros-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5001/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
