@@ -9,5 +9,11 @@ labels:
 
 resources:
   - ../../../apps/ros-ambulance-ufe
+  - ../../../apps/ros-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
+
 components:
   - ../../../components/version-developers
+  - https://github.com/rosadsky/ambulance-webapi//deployments/kustomize/components/mongodb
