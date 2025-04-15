@@ -12,6 +12,7 @@ labels:
 
 resources:
   - ../../../apps/ros-ambulance-ufe
+  - ../../../apps/ros-ambulance-webapi
 
 
 components:

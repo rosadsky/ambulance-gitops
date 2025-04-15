@@ -3,4 +3,7 @@ kind: Component
 images:
   - name: xosadsky/ambulance-ufe
     newName: xosadsky/ambulance-ufe
-    newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+    newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  - name: xosadsky/ambulance-wl-webapi
+    newName: xosadsky/ambulance-wl-webapi
+    newTag: 1.1.0
