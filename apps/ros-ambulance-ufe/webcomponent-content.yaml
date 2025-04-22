@@ -6,6 +6,8 @@ spec:
   microFrontend: ros-ambulance-ufe
   element: ros-ambulance-wl-app
   attributes:
+    - name: base-path
+      value: /ros-ambulance-wl/
     - name: api-base
       value: /ros-api
     - name: ambulance-id
